@@ -2,10 +2,10 @@
 
 require_once('user.php');
 
-$User = new User();
-$User_List = $User->get_all_users();
+$user = new user();
+$user_List = $user->get_all_users();
 
 echo "<pre>";
-print_r($User_List);
+print_r($user_List);
 
 ?>
