@@ -2,7 +2,7 @@
 
 require_once('database.php');
 
-Class User {
+Class user {
   
   public function get_all_users() {
     $db = db_connect();
