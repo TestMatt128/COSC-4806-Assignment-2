@@ -12,6 +12,7 @@ Class user {
     return $rows;
   }
 
+  // We'll implement this in conjunction with the login page.
   public function create_user($username, $password) {
     $db = db_connect();
     $statement = $db->prepare("Insert into users... ");

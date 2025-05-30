@@ -1,5 +1,5 @@
 <?php
-
+// MariaDB schematics for the database used in this assignment.
 define('DB_HOST',       'e08s1.h.filess.io');
 define('DB_DATABASE',   'COSC4806_timeupper');
 define('DB_USER',       'COSC4806_timeupper');
