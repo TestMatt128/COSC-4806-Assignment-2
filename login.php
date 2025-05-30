@@ -3,7 +3,7 @@
 require_once('user.php');
 
 $user = new user();
-$user_List = $user->create_user($username, $password);
+$user_Login = $user->create_user($username, $password);
 
 ?>
 
@@ -15,6 +15,8 @@ $user_List = $user->create_user($username, $password);
     </head>
     <body>
         <h1>New Account</h1>
+        <!-- Setting up the modified login. We need this modified with the inclusion of adding our credientials.-->
+        <p>Please enter your username and password to create an account:</p>
         <form action="saveAccount.php" method="post">
         <label for=username>Username</label>
         <br>
