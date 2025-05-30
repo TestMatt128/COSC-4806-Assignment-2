@@ -1,12 +1,3 @@
-<?php
-
-require_once('user.php');
-
-$user = new user();
-$user_Login = $user->create_user($username, $password);
-
-?>
-
 <DOCTYPE html>
 <html>
     <head>
